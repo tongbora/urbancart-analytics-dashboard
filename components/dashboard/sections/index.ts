@@ -1,0 +1,9 @@
+export { CustomersSection } from "./customers-section";
+export { GeographySection } from "./geography-section";
+export { OverviewSection } from "./overview-section";
+export { ProductsSection } from "./products-section";
+export { QualitySection } from "./quality-section";
+export { QuestionsSection } from "./questions-section";
+export { RecommendationsSection } from "./recommendations-section";
+export { RevenueSection } from "./revenue-section";
+export { TrendsSection } from "./trends-section";
