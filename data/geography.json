@@ -1,0 +1,563 @@
+{
+  "cityRevenue": [
+    {
+      "city": "Sydney",
+      "netRevenue": 1189089.29,
+      "activeCustomers": 177,
+      "revenuePerCustomer": 6718.02
+    },
+    {
+      "city": "New York",
+      "netRevenue": 1021503.52,
+      "activeCustomers": 153,
+      "revenuePerCustomer": 6676.49
+    },
+    {
+      "city": "Vancouver",
+      "netRevenue": 982622.31,
+      "activeCustomers": 169,
+      "revenuePerCustomer": 5814.33
+    },
+    {
+      "city": "Toronto",
+      "netRevenue": 803535.81,
+      "activeCustomers": 141,
+      "revenuePerCustomer": 5698.84
+    },
+    {
+      "city": "Los Angeles",
+      "netRevenue": 800536.67,
+      "activeCustomers": 146,
+      "revenuePerCustomer": 5483.13
+    },
+    {
+      "city": "Singapore",
+      "netRevenue": 952141.05,
+      "activeCustomers": 175,
+      "revenuePerCustomer": 5440.81
+    },
+    {
+      "city": "Paris",
+      "netRevenue": 813091.98,
+      "activeCustomers": 153,
+      "revenuePerCustomer": 5314.33
+    },
+    {
+      "city": "Chicago",
+      "netRevenue": 947751.13,
+      "activeCustomers": 179,
+      "revenuePerCustomer": 5294.7
+    },
+    {
+      "city": "Manchester",
+      "netRevenue": 797813.81,
+      "activeCustomers": 152,
+      "revenuePerCustomer": 5248.78
+    },
+    {
+      "city": "Munich",
+      "netRevenue": 777209.61,
+      "activeCustomers": 149,
+      "revenuePerCustomer": 5216.17
+    },
+    {
+      "city": "Mumbai",
+      "netRevenue": 712763.78,
+      "activeCustomers": 141,
+      "revenuePerCustomer": 5055.06
+    },
+    {
+      "city": "Unknown",
+      "netRevenue": 311712.22,
+      "activeCustomers": 62,
+      "revenuePerCustomer": 5027.62
+    },
+    {
+      "city": "Melbourne",
+      "netRevenue": 830509.2,
+      "activeCustomers": 173,
+      "revenuePerCustomer": 4800.63
+    },
+    {
+      "city": "Bangkok",
+      "netRevenue": 712119.2,
+      "activeCustomers": 150,
+      "revenuePerCustomer": 4747.46
+    },
+    {
+      "city": "London",
+      "netRevenue": 696636.34,
+      "activeCustomers": 152,
+      "revenuePerCustomer": 4583.13
+    },
+    {
+      "city": "Berlin",
+      "netRevenue": 619761.42,
+      "activeCustomers": 166,
+      "revenuePerCustomer": 3733.5
+    }
+  ],
+  "paymentMixByCountry": [
+    {
+      "country": "Australia",
+      "paymentMethod": "gift_card",
+      "orderCount": 276,
+      "sharePct": 20.92
+    },
+    {
+      "country": "Australia",
+      "paymentMethod": "debit_card",
+      "orderCount": 273,
+      "sharePct": 20.7
+    },
+    {
+      "country": "Australia",
+      "paymentMethod": "credit_card",
+      "orderCount": 270,
+      "sharePct": 20.47
+    },
+    {
+      "country": "Australia",
+      "paymentMethod": "paypal",
+      "orderCount": 257,
+      "sharePct": 19.48
+    },
+    {
+      "country": "Australia",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 243,
+      "sharePct": 18.42
+    },
+    {
+      "country": "Canada",
+      "paymentMethod": "gift_card",
+      "orderCount": 270,
+      "sharePct": 22.19
+    },
+    {
+      "country": "Canada",
+      "paymentMethod": "credit_card",
+      "orderCount": 259,
+      "sharePct": 21.28
+    },
+    {
+      "country": "Canada",
+      "paymentMethod": "paypal",
+      "orderCount": 253,
+      "sharePct": 20.79
+    },
+    {
+      "country": "Canada",
+      "paymentMethod": "debit_card",
+      "orderCount": 227,
+      "sharePct": 18.65
+    },
+    {
+      "country": "Canada",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 208,
+      "sharePct": 17.09
+    },
+    {
+      "country": "France",
+      "paymentMethod": "gift_card",
+      "orderCount": 121,
+      "sharePct": 21.42
+    },
+    {
+      "country": "France",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 115,
+      "sharePct": 20.35
+    },
+    {
+      "country": "France",
+      "paymentMethod": "credit_card",
+      "orderCount": 110,
+      "sharePct": 19.47
+    },
+    {
+      "country": "France",
+      "paymentMethod": "paypal",
+      "orderCount": 110,
+      "sharePct": 19.47
+    },
+    {
+      "country": "France",
+      "paymentMethod": "debit_card",
+      "orderCount": 109,
+      "sharePct": 19.29
+    },
+    {
+      "country": "Germany",
+      "paymentMethod": "gift_card",
+      "orderCount": 238,
+      "sharePct": 21.12
+    },
+    {
+      "country": "Germany",
+      "paymentMethod": "debit_card",
+      "orderCount": 234,
+      "sharePct": 20.76
+    },
+    {
+      "country": "Germany",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 220,
+      "sharePct": 19.52
+    },
+    {
+      "country": "Germany",
+      "paymentMethod": "paypal",
+      "orderCount": 219,
+      "sharePct": 19.43
+    },
+    {
+      "country": "Germany",
+      "paymentMethod": "credit_card",
+      "orderCount": 216,
+      "sharePct": 19.17
+    },
+    {
+      "country": "India",
+      "paymentMethod": "credit_card",
+      "orderCount": 117,
+      "sharePct": 22.76
+    },
+    {
+      "country": "India",
+      "paymentMethod": "paypal",
+      "orderCount": 108,
+      "sharePct": 21.01
+    },
+    {
+      "country": "India",
+      "paymentMethod": "debit_card",
+      "orderCount": 101,
+      "sharePct": 19.65
+    },
+    {
+      "country": "India",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 98,
+      "sharePct": 19.07
+    },
+    {
+      "country": "India",
+      "paymentMethod": "gift_card",
+      "orderCount": 90,
+      "sharePct": 17.51
+    },
+    {
+      "country": "Singapore",
+      "paymentMethod": "credit_card",
+      "orderCount": 144,
+      "sharePct": 21.08
+    },
+    {
+      "country": "Singapore",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 140,
+      "sharePct": 20.5
+    },
+    {
+      "country": "Singapore",
+      "paymentMethod": "gift_card",
+      "orderCount": 136,
+      "sharePct": 19.91
+    },
+    {
+      "country": "Singapore",
+      "paymentMethod": "debit_card",
+      "orderCount": 135,
+      "sharePct": 19.77
+    },
+    {
+      "country": "Singapore",
+      "paymentMethod": "paypal",
+      "orderCount": 128,
+      "sharePct": 18.74
+    },
+    {
+      "country": "Thailand",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 118,
+      "sharePct": 21.49
+    },
+    {
+      "country": "Thailand",
+      "paymentMethod": "gift_card",
+      "orderCount": 117,
+      "sharePct": 21.31
+    },
+    {
+      "country": "Thailand",
+      "paymentMethod": "debit_card",
+      "orderCount": 114,
+      "sharePct": 20.77
+    },
+    {
+      "country": "Thailand",
+      "paymentMethod": "credit_card",
+      "orderCount": 102,
+      "sharePct": 18.58
+    },
+    {
+      "country": "Thailand",
+      "paymentMethod": "paypal",
+      "orderCount": 98,
+      "sharePct": 17.85
+    },
+    {
+      "country": "UK",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 255,
+      "sharePct": 21.72
+    },
+    {
+      "country": "UK",
+      "paymentMethod": "debit_card",
+      "orderCount": 250,
+      "sharePct": 21.29
+    },
+    {
+      "country": "UK",
+      "paymentMethod": "credit_card",
+      "orderCount": 244,
+      "sharePct": 20.78
+    },
+    {
+      "country": "UK",
+      "paymentMethod": "gift_card",
+      "orderCount": 229,
+      "sharePct": 19.51
+    },
+    {
+      "country": "UK",
+      "paymentMethod": "paypal",
+      "orderCount": 196,
+      "sharePct": 16.7
+    },
+    {
+      "country": "USA",
+      "paymentMethod": "debit_card",
+      "orderCount": 389,
+      "sharePct": 21.0
+    },
+    {
+      "country": "USA",
+      "paymentMethod": "paypal",
+      "orderCount": 375,
+      "sharePct": 20.25
+    },
+    {
+      "country": "USA",
+      "paymentMethod": "gift_card",
+      "orderCount": 373,
+      "sharePct": 20.14
+    },
+    {
+      "country": "USA",
+      "paymentMethod": "credit_card",
+      "orderCount": 372,
+      "sharePct": 20.09
+    },
+    {
+      "country": "USA",
+      "paymentMethod": "bank_transfer",
+      "orderCount": 343,
+      "sharePct": 18.52
+    }
+  ],
+  "deviceCountryConversion": [
+    {
+      "country": "Germany",
+      "device": "tablet",
+      "sessions": 536,
+      "converted": 534,
+      "conversionRate": 99.63
+    },
+    {
+      "country": "Singapore",
+      "device": "tablet",
+      "sessions": 315,
+      "converted": 312,
+      "conversionRate": 99.05
+    },
+    {
+      "country": "Thailand",
+      "device": "tablet",
+      "sessions": 270,
+      "converted": 267,
+      "conversionRate": 98.89
+    },
+    {
+      "country": "Germany",
+      "device": "mobile",
+      "sessions": 514,
+      "converted": 508,
+      "conversionRate": 98.83
+    },
+    {
+      "country": "Canada",
+      "device": "mobile",
+      "sessions": 513,
+      "converted": 507,
+      "conversionRate": 98.83
+    },
+    {
+      "country": "Canada",
+      "device": "tablet",
+      "sessions": 499,
+      "converted": 493,
+      "conversionRate": 98.8
+    },
+    {
+      "country": "Canada",
+      "device": "desktop",
+      "sessions": 550,
+      "converted": 543,
+      "conversionRate": 98.73
+    },
+    {
+      "country": "Germany",
+      "device": "desktop",
+      "sessions": 516,
+      "converted": 509,
+      "conversionRate": 98.64
+    },
+    {
+      "country": "Singapore",
+      "device": "mobile",
+      "sessions": 272,
+      "converted": 268,
+      "conversionRate": 98.53
+    },
+    {
+      "country": "Singapore",
+      "device": "desktop",
+      "sessions": 255,
+      "converted": 250,
+      "conversionRate": 98.04
+    },
+    {
+      "country": "Thailand",
+      "device": "mobile",
+      "sessions": 278,
+      "converted": 272,
+      "conversionRate": 97.84
+    },
+    {
+      "country": "France",
+      "device": "desktop",
+      "sessions": 230,
+      "converted": 225,
+      "conversionRate": 97.83
+    },
+    {
+      "country": "UK",
+      "device": "tablet",
+      "sessions": 499,
+      "converted": 488,
+      "conversionRate": 97.8
+    },
+    {
+      "country": "UK",
+      "device": "mobile",
+      "sessions": 471,
+      "converted": 460,
+      "conversionRate": 97.66
+    },
+    {
+      "country": "France",
+      "device": "tablet",
+      "sessions": 256,
+      "converted": 250,
+      "conversionRate": 97.66
+    },
+    {
+      "country": "Australia",
+      "device": "desktop",
+      "sessions": 568,
+      "converted": 552,
+      "conversionRate": 97.18
+    },
+    {
+      "country": "Australia",
+      "device": "mobile",
+      "sessions": 587,
+      "converted": 569,
+      "conversionRate": 96.93
+    },
+    {
+      "country": "France",
+      "device": "mobile",
+      "sessions": 281,
+      "converted": 272,
+      "conversionRate": 96.8
+    },
+    {
+      "country": "USA",
+      "device": "desktop",
+      "sessions": 837,
+      "converted": 810,
+      "conversionRate": 96.77
+    },
+    {
+      "country": "India",
+      "device": "desktop",
+      "sessions": 246,
+      "converted": 238,
+      "conversionRate": 96.75
+    },
+    {
+      "country": "USA",
+      "device": "tablet",
+      "sessions": 869,
+      "converted": 840,
+      "conversionRate": 96.66
+    },
+    {
+      "country": "USA",
+      "device": "mobile",
+      "sessions": 792,
+      "converted": 765,
+      "conversionRate": 96.59
+    },
+    {
+      "country": "UK",
+      "device": "desktop",
+      "sessions": 510,
+      "converted": 492,
+      "conversionRate": 96.47
+    },
+    {
+      "country": "Australia",
+      "device": "tablet",
+      "sessions": 592,
+      "converted": 568,
+      "conversionRate": 95.95
+    },
+    {
+      "country": "Thailand",
+      "device": "desktop",
+      "sessions": 270,
+      "converted": 258,
+      "conversionRate": 95.56
+    },
+    {
+      "country": "India",
+      "device": "tablet",
+      "sessions": 233,
+      "converted": 218,
+      "conversionRate": 93.56
+    },
+    {
+      "country": "India",
+      "device": "mobile",
+      "sessions": 241,
+      "converted": 224,
+      "conversionRate": 92.95
+    }
+  ]
+}

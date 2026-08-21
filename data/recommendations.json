@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "priority": 1,
+      "title": "Fix the revenue reporting definition",
+      "detail": "Label every revenue figure as gross (all statuses) or completed-only \u2014 the gap is 41.6% of gross.",
+      "category": "Data Trust"
+    },
+    {
+      "priority": 2,
+      "title": "Launch retention program for Champions & At-Risk High Value",
+      "detail": "These segments are under 25% of customers but a disproportionate share of lifetime value.",
+      "category": "Customer"
+    },
+    {
+      "priority": 3,
+      "title": "Reconcile legacy CRM and 2024 catalog against live systems",
+      "detail": "57 products and marketing_segment values are currently unusable for targeting live customers.",
+      "category": "Data Trust"
+    },
+    {
+      "priority": 4,
+      "title": "Add city capture to checkout/signup",
+      "detail": "63 customers (2.52%) can't be included in regional marketing until city is captured.",
+      "category": "Data Collection"
+    },
+    {
+      "priority": 5,
+      "title": "Add a rating validity constraint",
+      "detail": "Enforce rating BETWEEN 1 AND 5 at the database layer \u2014 41 invalid ratings found this cycle.",
+      "category": "Data Trust"
+    },
+    {
+      "priority": 6,
+      "title": "Retire star rating as a loyalty proxy",
+      "detail": "Correlation with repeat purchase is r=0.03 \u2014 use RFM/order history instead.",
+      "category": "Customer"
+    },
+    {
+      "priority": 7,
+      "title": "Standardize the order-item duplicate check",
+      "detail": "An all-column check will always report 0 duplicates since order_item_id is a unique PK \u2014 actively misleading.",
+      "category": "Data Trust"
+    },
+    {
+      "priority": 8,
+      "title": "Treat the forecast as a range, not a point",
+      "detail": "Use the 95% range ($428K\u2013$678K) for planning, not the single point estimate.",
+      "category": "Planning"
+    }
+  ]
+}

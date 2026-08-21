@@ -1,0 +1,316 @@
+{
+  "categoryMargin": [
+    {
+      "category": "Books & Media",
+      "netRevenue": 3659344.06,
+      "netMargin": 2852577.23,
+      "marginPct": 78.0
+    },
+    {
+      "category": "Beauty & Health",
+      "netRevenue": 2925874.97,
+      "netMargin": 2075048.69,
+      "marginPct": 70.9
+    },
+    {
+      "category": "Electronics",
+      "netRevenue": 1629650.39,
+      "netMargin": 857210.28,
+      "marginPct": 52.6
+    },
+    {
+      "category": "Apparel",
+      "netRevenue": 1705127.86,
+      "netMargin": 834149.9,
+      "marginPct": 48.9
+    },
+    {
+      "category": "Sports & Outdoors",
+      "netRevenue": 1651658.13,
+      "netMargin": 833276.12,
+      "marginPct": 50.5
+    },
+    {
+      "category": "Home & Kitchen",
+      "netRevenue": 1397141.92,
+      "netMargin": 663512.15,
+      "marginPct": 47.5
+    }
+  ],
+  "categorySummary": [
+    {
+      "category": "Books & Media",
+      "totalRevenue": 3675270.95,
+      "orderCount": 2927,
+      "avgOrderValue": 1255.64
+    },
+    {
+      "category": "Beauty & Health",
+      "totalRevenue": 2957229.75,
+      "orderCount": 2821,
+      "avgOrderValue": 1048.29
+    },
+    {
+      "category": "Apparel",
+      "totalRevenue": 1714435.76,
+      "orderCount": 2854,
+      "avgOrderValue": 600.71
+    },
+    {
+      "category": "Sports & Outdoors",
+      "totalRevenue": 1664660.63,
+      "orderCount": 2820,
+      "avgOrderValue": 590.31
+    },
+    {
+      "category": "Electronics",
+      "totalRevenue": 1653446.7,
+      "orderCount": 2891,
+      "avgOrderValue": 571.93
+    },
+    {
+      "category": "Home & Kitchen",
+      "totalRevenue": 1414051.56,
+      "orderCount": 2927,
+      "avgOrderValue": 483.11
+    }
+  ],
+  "returnRateByCategory": [
+    {
+      "category": "Beauty & Health",
+      "totalItems": 3354,
+      "returnedItems": 106,
+      "returnRate": 3.16
+    },
+    {
+      "category": "Electronics",
+      "totalItems": 3401,
+      "returnedItems": 106,
+      "returnRate": 3.12
+    },
+    {
+      "category": "Apparel",
+      "totalItems": 3372,
+      "returnedItems": 102,
+      "returnRate": 3.02
+    },
+    {
+      "category": "Books & Media",
+      "totalItems": 3455,
+      "returnedItems": 93,
+      "returnRate": 2.69
+    },
+    {
+      "category": "Home & Kitchen",
+      "totalItems": 3468,
+      "returnedItems": 91,
+      "returnRate": 2.62
+    },
+    {
+      "category": "Sports & Outdoors",
+      "totalItems": 3312,
+      "returnedItems": 85,
+      "returnRate": 2.57
+    }
+  ],
+  "topProductsByCategory": [
+    {
+      "category": "Apparel",
+      "productId": 136,
+      "name": "Watch Footwear",
+      "revenue": 94710.71,
+      "rank": 1
+    },
+    {
+      "category": "Apparel",
+      "productId": 131,
+      "name": "Spring Kid",
+      "revenue": 74770.79,
+      "rank": 2
+    },
+    {
+      "category": "Apparel",
+      "productId": 104,
+      "name": "Major Men",
+      "revenue": 74526.58,
+      "rank": 3
+    },
+    {
+      "category": "Beauty & Health",
+      "productId": 245,
+      "name": "Throughout Personal Care",
+      "revenue": 740443.28,
+      "rank": 1
+    },
+    {
+      "category": "Beauty & Health",
+      "productId": 250,
+      "name": "Discover Haircare",
+      "revenue": 651536.6,
+      "rank": 2
+    },
+    {
+      "category": "Beauty & Health",
+      "productId": 225,
+      "name": "Discover Skincare",
+      "revenue": 83111.24,
+      "rank": 3
+    },
+    {
+      "category": "Books & Media",
+      "productId": 270,
+      "name": "Environmental Non-Fiction",
+      "revenue": 2176012.8,
+      "rank": 1
+    },
+    {
+      "category": "Books & Media",
+      "productId": 265,
+      "name": "Create Non-Fiction",
+      "revenue": 73720.39,
+      "rank": 2
+    },
+    {
+      "category": "Books & Media",
+      "productId": 293,
+      "name": "Almost Non-Fiction",
+      "revenue": 65591.43,
+      "rank": 3
+    },
+    {
+      "category": "Electronics",
+      "productId": 3,
+      "name": "Start Accessorie",
+      "revenue": 75263.57,
+      "rank": 1
+    },
+    {
+      "category": "Electronics",
+      "productId": 2,
+      "name": "Maintain Laptop",
+      "revenue": 75045.04,
+      "rank": 2
+    },
+    {
+      "category": "Electronics",
+      "productId": 27,
+      "name": "Into Laptop",
+      "revenue": 72428.33,
+      "rank": 3
+    },
+    {
+      "category": "Home & Kitchen",
+      "productId": 76,
+      "name": "Cover Furniture",
+      "revenue": 77347.17,
+      "rank": 1
+    },
+    {
+      "category": "Home & Kitchen",
+      "productId": 96,
+      "name": "Mind Decor",
+      "revenue": 67355.26,
+      "rank": 2
+    },
+    {
+      "category": "Home & Kitchen",
+      "productId": 51,
+      "name": "Former Cookware",
+      "revenue": 66995.18,
+      "rank": 3
+    },
+    {
+      "category": "Sports & Outdoors",
+      "productId": 174,
+      "name": "Social Cycling",
+      "revenue": 75068.11,
+      "rank": 1
+    },
+    {
+      "category": "Sports & Outdoors",
+      "productId": 157,
+      "name": "First Camping",
+      "revenue": 70851.5,
+      "rank": 2
+    },
+    {
+      "category": "Sports & Outdoors",
+      "productId": 152,
+      "name": "Soon Camping",
+      "revenue": 69134.27,
+      "rank": 3
+    }
+  ],
+  "topRatedProducts": [
+    {
+      "productId": 200,
+      "name": "White Fitnes",
+      "category": "Sports & Outdoors",
+      "avgRating": 4.6,
+      "reviewCount": 15
+    },
+    {
+      "productId": 19,
+      "name": "Improve Smartphone",
+      "category": "Electronics",
+      "avgRating": 4.53,
+      "reviewCount": 15
+    },
+    {
+      "productId": 191,
+      "name": "Yeah Camping",
+      "category": "Sports & Outdoors",
+      "avgRating": 4.53,
+      "reviewCount": 15
+    },
+    {
+      "productId": 283,
+      "name": "Strategy Children",
+      "category": "Books & Media",
+      "avgRating": 4.53,
+      "reviewCount": 15
+    },
+    {
+      "productId": 21,
+      "name": "Right Camera",
+      "category": "Electronics",
+      "avgRating": 4.5,
+      "reviewCount": 16
+    },
+    {
+      "productId": 66,
+      "name": "Wide Cookware",
+      "category": "Home & Kitchen",
+      "avgRating": 4.5,
+      "reviewCount": 16
+    },
+    {
+      "productId": 193,
+      "name": "Add Camping",
+      "category": "Sports & Outdoors",
+      "avgRating": 4.47,
+      "reviewCount": 15
+    },
+    {
+      "productId": 208,
+      "name": "Series Skincare",
+      "category": "Beauty & Health",
+      "avgRating": 4.42,
+      "reviewCount": 19
+    },
+    {
+      "productId": 182,
+      "name": "Answer Fitnes",
+      "category": "Sports & Outdoors",
+      "avgRating": 4.4,
+      "reviewCount": 15
+    },
+    {
+      "productId": 122,
+      "name": "Attorney Men",
+      "category": "Apparel",
+      "avgRating": 4.35,
+      "reviewCount": 17
+    }
+  ]
+}

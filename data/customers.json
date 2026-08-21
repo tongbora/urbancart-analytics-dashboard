@@ -1,0 +1,214 @@
+{
+  "segments": [
+    {
+      "segment": "Core/Steady",
+      "customers": 1033,
+      "totalRevenue": 4977165.97,
+      "avgRevenue": 4818.17,
+      "avgAge": 45.3
+    },
+    {
+      "segment": "Champions",
+      "customers": 375,
+      "totalRevenue": 3979740.19,
+      "avgRevenue": 10612.64,
+      "avgAge": 44.4
+    },
+    {
+      "segment": "Lost/Churned",
+      "customers": 545,
+      "totalRevenue": 1642140.79,
+      "avgRevenue": 3013.1,
+      "avgAge": 45.0
+    },
+    {
+      "segment": "At-Risk High Value",
+      "customers": 223,
+      "totalRevenue": 1519762.81,
+      "avgRevenue": 6815.08,
+      "avgAge": 44.9
+    },
+    {
+      "segment": "New/Promising",
+      "customers": 262,
+      "totalRevenue": 849987.58,
+      "avgRevenue": 3244.23,
+      "avgAge": 47.5
+    }
+  ],
+  "scoredCustomers": 2438,
+  "neverOrderedCustomers": 62,
+  "ratingVsLoyalty": {
+    "correlation": 0.0256,
+    "byRating": [
+      {
+        "rating": 1,
+        "reviewers": 204,
+        "avgOrders": 3.56
+      },
+      {
+        "rating": 2,
+        "reviewers": 280,
+        "avgOrders": 3.67
+      },
+      {
+        "rating": 3,
+        "reviewers": 529,
+        "avgOrders": 3.74
+      },
+      {
+        "rating": 4,
+        "reviewers": 978,
+        "avgOrders": 3.67
+      },
+      {
+        "rating": 5,
+        "reviewers": 1197,
+        "avgOrders": 3.77
+      }
+    ],
+    "invalidRatingsExcluded": 41
+  },
+  "top20Customers": [
+    {
+      "id": 611,
+      "name": "Tara Holmes",
+      "city": "Sydney",
+      "signupDate": "2021-10-15",
+      "lifetimeSpend": 146989.77
+    },
+    {
+      "id": 689,
+      "name": "Misty Mcguire",
+      "city": "Toronto",
+      "signupDate": "2020-08-25",
+      "lifetimeSpend": 108053.55
+    },
+    {
+      "id": 2181,
+      "name": "Jason Ramirez",
+      "city": "Melbourne",
+      "signupDate": "2019-11-08",
+      "lifetimeSpend": 106449.54
+    },
+    {
+      "id": 1259,
+      "name": "Matthew Perez",
+      "city": "Los Angeles",
+      "signupDate": "2023-02-25",
+      "lifetimeSpend": 95535.58
+    },
+    {
+      "id": 1773,
+      "name": "Connie Hamilton",
+      "city": "Los Angeles",
+      "signupDate": "2022-02-13",
+      "lifetimeSpend": 80201.62
+    },
+    {
+      "id": 1217,
+      "name": "Virginia Hernandez",
+      "city": "Paris",
+      "signupDate": "2022-07-07",
+      "lifetimeSpend": 79992.06
+    },
+    {
+      "id": 528,
+      "name": "Brent Hopkins",
+      "city": "Vancouver",
+      "signupDate": "2023-10-12",
+      "lifetimeSpend": 73939.51
+    },
+    {
+      "id": 2445,
+      "name": "Virginia Rose",
+      "city": "Bangkok",
+      "signupDate": "2023-11-26",
+      "lifetimeSpend": 72592.96
+    },
+    {
+      "id": 1347,
+      "name": "Evan Davies",
+      "city": "Paris",
+      "signupDate": "2020-05-28",
+      "lifetimeSpend": 71844.6
+    },
+    {
+      "id": 1993,
+      "name": "Chelsea Austin",
+      "city": "Sydney",
+      "signupDate": "2020-04-27",
+      "lifetimeSpend": 71364.76
+    },
+    {
+      "id": 634,
+      "name": "Dr. Samuel Holmes DDS",
+      "city": "New York",
+      "signupDate": "2019-04-09",
+      "lifetimeSpend": 66544.25
+    },
+    {
+      "id": 1533,
+      "name": "Lauren Anthony",
+      "city": "Vancouver",
+      "signupDate": "2023-10-03",
+      "lifetimeSpend": 62415.42
+    },
+    {
+      "id": 1815,
+      "name": "Louis Rogers",
+      "city": "New York",
+      "signupDate": "2022-04-01",
+      "lifetimeSpend": 48292.79
+    },
+    {
+      "id": 1180,
+      "name": "Tammy Booth",
+      "city": "Mumbai",
+      "signupDate": "2022-03-30",
+      "lifetimeSpend": 47277.55
+    },
+    {
+      "id": 123,
+      "name": "Mary Grimes",
+      "city": "Chicago",
+      "signupDate": "2022-07-30",
+      "lifetimeSpend": 44292.22
+    },
+    {
+      "id": 1316,
+      "name": "Susan Sanchez",
+      "city": "Bangkok",
+      "signupDate": "2024-04-25",
+      "lifetimeSpend": 42809.58
+    },
+    {
+      "id": 797,
+      "name": "Michael Washington",
+      "city": "Vancouver",
+      "signupDate": "2022-02-25",
+      "lifetimeSpend": 40777.88
+    },
+    {
+      "id": 1424,
+      "name": "Steven Thomas",
+      "city": "Mumbai",
+      "signupDate": "2019-09-20",
+      "lifetimeSpend": 40588.58
+    },
+    {
+      "id": 1417,
+      "name": "Gene Alexander",
+      "city": "Singapore",
+      "signupDate": "2022-10-31",
+      "lifetimeSpend": 39730.75
+    },
+    {
+      "id": 423,
+      "name": "Richard Walker",
+      "city": "Toronto",
+      "signupDate": "2022-03-17",
+      "lifetimeSpend": 39698.47
+    }
+  ]
+}

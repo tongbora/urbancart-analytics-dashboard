@@ -1,0 +1,35 @@
+{
+  "dateRange": {
+    "start": "2022-01-02",
+    "end": "2024-12-31"
+  },
+  "scale": {
+    "customers": 2500,
+    "orders": 9000,
+    "orderItems": 20362,
+    "products": 300,
+    "reviews": 4000,
+    "webSessions": 12000,
+    "cities": 15,
+    "countries": 9,
+    "categories": 6
+  },
+  "revenue": {
+    "grossAllStatus": 12968797.33,
+    "completedOnly": 7569487.97,
+    "gap": 5399309.36,
+    "gapPct": 41.6
+  },
+  "topCategory": {
+    "name": "Books & Media",
+    "netMargin": 2852577.23,
+    "marginPct": 78.0
+  },
+  "topSegment": {
+    "name": "Champions",
+    "avgMonetary": 10612.64,
+    "customers": 375
+  },
+  "forecastNextMonth": 547844.12,
+  "regressionR2": 0.779
+}

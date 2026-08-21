@@ -1,0 +1,240 @@
+{
+  "monthly": [
+    {
+      "month": "2022-01",
+      "revenue": 290409.54,
+      "rolling3": 290409.54,
+      "monthIndex": 0
+    },
+    {
+      "month": "2022-02",
+      "revenue": 160997.59,
+      "rolling3": 225703.57,
+      "monthIndex": 1
+    },
+    {
+      "month": "2022-03",
+      "revenue": 223735.32,
+      "rolling3": 225047.48,
+      "monthIndex": 2
+    },
+    {
+      "month": "2022-04",
+      "revenue": 169965.49,
+      "rolling3": 184899.47,
+      "monthIndex": 3
+    },
+    {
+      "month": "2022-05",
+      "revenue": 284261.34,
+      "rolling3": 225987.38,
+      "monthIndex": 4
+    },
+    {
+      "month": "2022-06",
+      "revenue": 192353.1,
+      "rolling3": 215526.64,
+      "monthIndex": 5
+    },
+    {
+      "month": "2022-07",
+      "revenue": 347325.84,
+      "rolling3": 274646.76,
+      "monthIndex": 6
+    },
+    {
+      "month": "2022-08",
+      "revenue": 212186.05,
+      "rolling3": 250621.66,
+      "monthIndex": 7
+    },
+    {
+      "month": "2022-09",
+      "revenue": 243855.26,
+      "rolling3": 267789.05,
+      "monthIndex": 8
+    },
+    {
+      "month": "2022-10",
+      "revenue": 299473.71,
+      "rolling3": 251838.34,
+      "monthIndex": 9
+    },
+    {
+      "month": "2022-11",
+      "revenue": 262704.61,
+      "rolling3": 268677.86,
+      "monthIndex": 10
+    },
+    {
+      "month": "2022-12",
+      "revenue": 276292.18,
+      "rolling3": 279490.16,
+      "monthIndex": 11
+    },
+    {
+      "month": "2023-01",
+      "revenue": 248306.7,
+      "rolling3": 262434.5,
+      "monthIndex": 12
+    },
+    {
+      "month": "2023-02",
+      "revenue": 264517.02,
+      "rolling3": 263038.63,
+      "monthIndex": 13
+    },
+    {
+      "month": "2023-03",
+      "revenue": 298466.14,
+      "rolling3": 270429.95,
+      "monthIndex": 14
+    },
+    {
+      "month": "2023-04",
+      "revenue": 230378.98,
+      "rolling3": 264454.05,
+      "monthIndex": 15
+    },
+    {
+      "month": "2023-05",
+      "revenue": 451297.36,
+      "rolling3": 326714.16,
+      "monthIndex": 16
+    },
+    {
+      "month": "2023-06",
+      "revenue": 349487.35,
+      "rolling3": 343721.23,
+      "monthIndex": 17
+    },
+    {
+      "month": "2023-07",
+      "revenue": 360291.3,
+      "rolling3": 387025.34,
+      "monthIndex": 18
+    },
+    {
+      "month": "2023-08",
+      "revenue": 278069.19,
+      "rolling3": 329282.61,
+      "monthIndex": 19
+    },
+    {
+      "month": "2023-09",
+      "revenue": 445457.7,
+      "rolling3": 361272.73,
+      "monthIndex": 20
+    },
+    {
+      "month": "2023-10",
+      "revenue": 327280.86,
+      "rolling3": 350269.25,
+      "monthIndex": 21
+    },
+    {
+      "month": "2023-11",
+      "revenue": 435339.75,
+      "rolling3": 402692.77,
+      "monthIndex": 22
+    },
+    {
+      "month": "2023-12",
+      "revenue": 432412.37,
+      "rolling3": 398344.33,
+      "monthIndex": 23
+    },
+    {
+      "month": "2024-01",
+      "revenue": 453426.78,
+      "rolling3": 440392.97,
+      "monthIndex": 24
+    },
+    {
+      "month": "2024-02",
+      "revenue": 400268.88,
+      "rolling3": 428702.68,
+      "monthIndex": 25
+    },
+    {
+      "month": "2024-03",
+      "revenue": 439162.73,
+      "rolling3": 430952.8,
+      "monthIndex": 26
+    },
+    {
+      "month": "2024-04",
+      "revenue": 435938.05,
+      "rolling3": 425123.22,
+      "monthIndex": 27
+    },
+    {
+      "month": "2024-05",
+      "revenue": 518127.99,
+      "rolling3": 464409.59,
+      "monthIndex": 28
+    },
+    {
+      "month": "2024-06",
+      "revenue": 498260.13,
+      "rolling3": 484108.72,
+      "monthIndex": 29
+    },
+    {
+      "month": "2024-07",
+      "revenue": 520034.83,
+      "rolling3": 512140.98,
+      "monthIndex": 30
+    },
+    {
+      "month": "2024-08",
+      "revenue": 594403.54,
+      "rolling3": 537566.17,
+      "monthIndex": 31
+    },
+    {
+      "month": "2024-09",
+      "revenue": 481085.09,
+      "rolling3": 531841.15,
+      "monthIndex": 32
+    },
+    {
+      "month": "2024-10",
+      "revenue": 448012.58,
+      "rolling3": 507833.74,
+      "monthIndex": 33
+    },
+    {
+      "month": "2024-11",
+      "revenue": 610885.77,
+      "rolling3": 513327.81,
+      "monthIndex": 34
+    },
+    {
+      "month": "2024-12",
+      "revenue": 484326.23,
+      "rolling3": 514408.19,
+      "monthIndex": 35
+    }
+  ],
+  "regression": {
+    "intercept": 182785.15,
+    "slope": 10140.53,
+    "r2": 0.7786,
+    "monthsFitted": 36
+  },
+  "forecast": [
+    {
+      "monthIndex": 36,
+      "forecast": 547844.12,
+      "lower95": 428162.98,
+      "upper95": 667525.25
+    },
+    {
+      "monthIndex": 37,
+      "forecast": 557984.64,
+      "lower95": 437780.12,
+      "upper95": 678189.16
+    }
+  ]
+}

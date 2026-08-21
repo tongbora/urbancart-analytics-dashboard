@@ -1,0 +1,46 @@
+{
+  "orderStatusMix": {
+    "completed": 56.68,
+    "cancelled": 14.76,
+    "returned": 14.74,
+    "pending": 13.82
+  },
+  "revenueGrossVsCompleted": {
+    "gross": 12968797.33,
+    "completedOnly": 7569487.97,
+    "gap": 5399309.36,
+    "gapPct": 41.6
+  },
+  "orderItemDuplicates": {
+    "naiveAllColumnCheck": 0,
+    "businessKeyCheck": 186,
+    "rawRows": 20362,
+    "cleanedRows": 20176,
+    "returnRows": 577
+  },
+  "skuReconciliation": {
+    "sharedSkus": 255,
+    "databaseOnlySkus": 45,
+    "catalogOnlySkus": 12
+  },
+  "legacyCrm": {
+    "rawRows": 1427,
+    "cleanedRows": 1323,
+    "duplicatesRemoved": 104
+  },
+  "missingValues": {
+    "ageMissingPct": 5.56,
+    "cityMissingPct": 2.52,
+    "genderMissingPct": 4.6
+  },
+  "reviews": {
+    "invalidRatings": 41,
+    "missingText": 838,
+    "totalReviews": 4000
+  },
+  "priceOutliers": {
+    "count": 3,
+    "lowerBound": -388.48,
+    "upperBound": 1160.36
+  }
+}
