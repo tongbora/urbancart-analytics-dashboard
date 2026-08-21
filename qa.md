@@ -82,140 +82,144 @@ Prioritize retention for Champions and At-Risk High Value customers because they
 
 Books & Media has the strongest margin at 78.0%.
 
-### 19. Why is margin ranking different from revenue ranking?
+### 19. Which product category has the highest revenue?
+
+Books & Media has the highest total revenue at $3,675,270.95, or about $3.68M.
+
+### 20. Why is margin ranking different from revenue ranking?
 
 A category can generate high revenue but still have lower profit after discounts, returns, and costs. Profitability depends on margin, not revenue alone.
 
-### 20. How does Electronics compare with Books & Media?
+### 21. How does Electronics compare with Books & Media?
 
 Electronics has a 52.6% margin, while Books & Media has a 78.0% margin. Electronics is still profitable, but less efficient.
 
-### 21. What is the SKU/catalog trust issue?
+### 22. What is the SKU/catalog trust issue?
 
 Some SKUs do not match between the transaction database and catalog. There are database-only SKUs and catalog-only SKUs, so product joins need reconciliation.
 
 ## Data Quality
 
-### 22. Is the data trustworthy?
+### 23. Is the data trustworthy?
 
 It is trustworthy for directional analysis after cleaning, but not fully trustworthy for final operational decisions until reconciliation issues are fixed.
 
-### 23. What was the duplicate issue?
+### 24. What was the duplicate issue?
 
 The naive all-column duplicate check found 0 duplicates, but the business-key check found 186 duplicate order items.
 
-### 24. Why is the all-column duplicate check misleading?
+### 25. Why is the all-column duplicate check misleading?
 
 Because it includes a unique primary key, so every row looks unique even when the business fields are duplicated.
 
-### 25. What data quality problems did you identify?
+### 26. What data quality problems did you identify?
 
 Missing age, missing city, missing gender, invalid ratings, duplicate order items, legacy CRM duplicates, and SKU reconciliation gaps.
 
-### 26. What should be fixed first?
+### 27. What should be fixed first?
 
 Revenue definitions and data reconciliation should be fixed first because they directly affect business reporting and decision-making.
 
 ## Forecast
 
-### 27. What is the next-month forecast?
+### 28. What is the next-month forecast?
 
 The point forecast is $547,844.12, rounded to $547,844.
 
-### 28. Why do you show a forecast range?
+### 29. Why do you show a forecast range?
 
 Forecasts are uncertain. The 95% range is $428,163 to $667,525, so leadership should plan using a range instead of one exact number.
 
-### 29. What does regression R2 mean here?
+### 30. What does regression R2 mean here?
 
 R2 shows how well the trend model fits the historical monthly revenue. Here it is about 0.779, which suggests a useful directional trend but not perfect prediction.
 
 ## Dashboard Design
 
-### 30. Why did you use a dark dashboard style?
+### 31. Why did you use a dark dashboard style?
 
 It matches the shadcn dashboard reference and gives the project a professional analytics look.
 
-### 31. Why also add light mode?
+### 32. Why also add light mode?
 
 Light mode makes the dashboard easier to view in bright rooms, classrooms, or printed contexts.
 
-### 32. Why did you use cards?
+### 33. Why did you use cards?
 
 Cards group related metrics and make the dashboard easier to scan during a presentation.
 
-### 33. Why did you use Recharts?
+### 34. Why did you use Recharts?
 
 Recharts works well with React and is enough for clear bar, line, pie, and forecast visualizations.
 
-### 34. Why did you use lucide-react icons?
+### 35. Why did you use lucide-react icons?
 
 Lucide icons are clean, consistent, and already fit shadcn/ui dashboard patterns.
 
-### 35. Why did you build section components?
+### 36. Why did you build section components?
 
 Each sidebar section has its own component, which makes the code easier to read, maintain, and extend.
 
 ## Technical
 
-### 36. What framework did you use?
+### 37. What framework did you use?
 
 Next.js with TypeScript, Tailwind CSS, local shadcn/ui-style components, Recharts, and lucide-react.
 
-### 37. Why TypeScript?
+### 38. Why TypeScript?
 
 TypeScript helps catch mistakes early, especially when working with structured JSON data and component props.
 
-### 38. What files are most important?
+### 39. What files are most important?
 
 `app/page.tsx` is the route entry, `components/dashboard/dashboard.tsx` is the dashboard shell, `components/dashboard/sections/` contains each page section, and `components/dashboard/dashboard-charts.tsx` contains charts.
 
-### 39. How does sidebar navigation work?
+### 40. How does sidebar navigation work?
 
 The dashboard stores the active section in React state and updates the URL hash, such as `#customers` or `#trends`.
 
-### 40. What does Present Mode do?
+### 41. What does Present Mode do?
 
 It hides the sidebar and navbar, increases the visual scale, and shows a small Exit Present Mode control.
 
-### 41. What does Export / Print do?
+### 42. What does Export / Print do?
 
 It calls `window.print()` and uses print CSS to hide navigation and print each dashboard section on its own page.
 
-### 42. How did you test the project?
+### 43. How did you test the project?
 
 I ran ESLint and TypeScript checks using `npm run lint` and `npx tsc --noEmit`.
 
 ## Critical Thinking
 
-### 43. What is the most important insight from the project?
+### 44. What is the most important insight from the project?
 
 The business must separate completed-only revenue from gross all-status revenue. Otherwise, performance reporting can overstate earned revenue by 41.6% of gross.
 
-### 44. What is the biggest business risk?
+### 45. What is the biggest business risk?
 
 The biggest risk is making decisions from unreconciled or poorly defined data, especially revenue status and SKU/catalog mismatches.
 
-### 45. If you had more time, what would you improve?
+### 46. If you had more time, what would you improve?
 
 I would connect the dashboard to a real database, add automated data validation tests, and build a data refresh pipeline.
 
-### 46. What should leadership do next?
+### 47. What should leadership do next?
 
 Fix revenue reporting definitions, reconcile SKU and CRM data, and launch retention campaigns for high-value customer segments.
 
-### 47. What is one limitation of your project?
+### 48. What is one limitation of your project?
 
 The dashboard uses static summary JSON, so it is not a live operational dashboard.
 
-### 48. Why is that limitation acceptable?
+### 49. Why is that limitation acceptable?
 
 For a term project, a static reproducible snapshot is enough to demonstrate analysis, design, and business recommendations.
 
-### 49. What makes your dashboard useful for non-technical people?
+### 50. What makes your dashboard useful for non-technical people?
 
 It gives plain-English verdicts, rounded presentation metrics, clear definitions, and links from summary answers to deeper analysis.
 
-### 50. What is your final conclusion?
+### 51. What is your final conclusion?
 
 UrbanCart has valuable customer and product opportunities, but leadership must fix revenue definitions and data reconciliation before using the data for final operational decisions.

@@ -19,6 +19,8 @@ export function ProductsSection({
   description: string;
   presentMode?: boolean;
 }) {
+  const highestRevenueCategory = products.categorySummary[0];
+
   return (
     <>
       <SectionHeader section={section} description={description} />
@@ -43,15 +45,15 @@ export function ProductsSection({
             ])}
           />
         </DashboardCard>
-        <DashboardCard title="Top-Rated Products" description="Products with the highest average rating.">
+        <DashboardCard title="Highest Revenue Category" description="The product category with the highest revenue.">
           <DataTable
-            headers={["Product", "Category", "Avg Rating", "Reviews"]}
-            rows={products.topRatedProducts.map((product) => [
-              product.name,
-              product.category,
-              product.avgRating.toFixed(2),
-              formatNumber(product.reviewCount),
-            ])}
+            headers={["Metric", "Value"]}
+            rows={[
+              ["Category", highestRevenueCategory.category],
+              ["Total Revenue", formatMoney(highestRevenueCategory.totalRevenue, false)],
+              ["Orders", formatNumber(highestRevenueCategory.orderCount)],
+              ["Avg Order Value", formatMoney(highestRevenueCategory.avgOrderValue, false)],
+            ]}
           />
         </DashboardCard>
       </div>
