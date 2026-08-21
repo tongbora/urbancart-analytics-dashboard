@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  Database,
   Menu,
   Moon,
   Presentation,
@@ -9,6 +8,7 @@ import {
   Sun,
   X,
 } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 
 import { Badge } from "@/components/ui/badge";
@@ -252,9 +252,14 @@ export default function Dashboard() {
           <div className="flex h-full flex-col">
             <div className="border-b p-4">
               <div className="flex items-center gap-3">
-                <div className="flex h-9 w-9 items-center justify-center rounded-md bg-primary text-primary-foreground">
-                  <Database className="h-4 w-4" />
-                </div>
+                <Image
+                  src="/favicon.ico"
+                  alt="UrbanCart Analytics logo"
+                  width={36}
+                  height={36}
+                  className="h-9 w-9 rounded-md object-cover"
+                  unoptimized
+                />
                 <div>
                   <p className="text-sm font-semibold text-sidebar-foreground">
                     UrbanCart Analytics
@@ -276,7 +281,7 @@ export default function Dashboard() {
                     key={section.id}
                     type="button"
                     variant="ghost"
-                    className={`h-9 shrink-0 justify-start px-2.5 ${
+                    className={`h-9 shrink-0 cursor-pointer justify-start px-2.5 ${
                       isActive
                         ? "bg-sidebar-accent text-sidebar-accent-foreground"
                         : "text-muted-foreground"
